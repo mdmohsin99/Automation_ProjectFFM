@@ -33,8 +33,8 @@ WebDriver driver;
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='dropdown-basic-button']")));
 		
 		/*
-		WebElement ele = webDriver.findElement(By.xpath("//button[@id='dropdown-basic-button']"));
-		JavascriptExecutor executor = (JavascriptExecutor) webDriver;
+		WebElement ele = driver.findElement(By.xpath("//button[@id='dropdown-basic-button']"));
+		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", ele);
 		*/
 
